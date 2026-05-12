@@ -8,7 +8,7 @@ The code reproduces the numerical evidence used in the section
 **"Optimization of the Holevo information"** and the associated conjectures.
 Concretely, for a uniform ensemble of reflections $e^{i\pi|\psi\rangle\langle\psi|}$
 applied to an $n$-copy entangled probe state, it computes the Holevo information
-$S\!\left(\widetilde{\mathcal{T}(\rho)}\right)$ in the mixed Schur basis and compares
+$S\left(\widetilde{\mathcal{T}(\rho)}\right)$ in the mixed Schur basis and compares
 it to the information-theoretic upper bound $2\log_2 D(n,d)$, where
 $D(n,d)=\binom{n+d-1}{d-1}^2$.
 
