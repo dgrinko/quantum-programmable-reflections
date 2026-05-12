@@ -1,0 +1,6 @@
+# Python dependencies for log_log_holevo_information_plot.ipynb
+numpy
+pandas
+scipy
+matplotlib
+jupyterlab
