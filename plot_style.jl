@@ -54,3 +54,6 @@ end
 # valign = :top hangs the label below the point, for curves that end just under another one.
 end_label!(plt, x, y, text; valign = :vcenter) =
     annotate!(plt, x, y, Plots.text("  " * text, 8, INK_2, :left, valign))
+
+# Save a figure as PDF in the repository's plots/ folder.
+save_plot(plt, name) = savefig(plt, joinpath(mkpath(joinpath(@__DIR__, "plots")), name * ".pdf"))
